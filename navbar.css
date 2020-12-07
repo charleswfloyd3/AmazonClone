@@ -1,0 +1,37 @@
+#navbar{
+    background-color:black;
+    width: 100vw;
+    margin-left: -7.8px;
+    margin-top: -7.8px;
+    top: 0;
+    position: fixed;
+    display: grid;
+    
+}
+.navbar_left{
+    display: inline;
+
+}
+.amazon_logo{
+    height: 29.5px;
+    width: 100px;
+    margin: 15px 0px 0px 10px;
+    padding: 10px 7px 5px 7px;
+}
+#navbar .amazon_logo:hover{
+    outline: white 1px solid;
+}
+#navbar .select_address:hover{
+    outline: white 1px solid;
+}
+.select_address{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    height: 35.5px;
+    
+}
+
+#paragraphplaceholder{
+    height: 200vh;
+}
