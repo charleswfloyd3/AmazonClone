@@ -5,19 +5,21 @@
     margin-top: -7.8px;
     top: 0;
     position: fixed;
-    display: grid;
+    display: flex;}
+#navbarleft{
+display: flex;
+}
+li{
+    list-style-type: none;
     
 }
-.navbar_left{
-    display: inline;
 
-}
 .amazon_logo{
     height: 29.5px;
     width: 100px;
-    margin: 15px 0px 0px 10px;
+    margin: 15px 0px 1px 10px;
     padding: 10px 7px 5px 7px;
-}
+    }
 #navbar .amazon_logo:hover{
     outline: white 1px solid;
 }
@@ -25,13 +27,65 @@
     outline: white 1px solid;
 }
 .select_address{
-    display: inline-block;
+    display: flex;
     color: white;
     margin-left: 20px;
     height: 35.5px;
+    margin-top: 17px;
+    /* padding-top: 10px; */
+    padding-bottom: 7px;
+    font-weight: 300;
+    font-size: 17px;
+    width: 140px;
+    /* border: 1px solid white; */
     
 }
+.navbarcenter{
+    
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 0px;
+    width: fit-content;
+    /* border: 1px solid white; */
+}
+.catgeory_selector{
+    height: 40px;
+    width: 50px;
+}
+.searchbar{
+    margin-left: -3.2px;;
+    width: 540px;
+    height: 40px;
+}
+.search_btn{
+    margin-left: -3.2px;
+    width: 44px;
+    height: 39.2px;
+    margin-bottom: -15px;
 
-#paragraphplaceholder{
-    height: 200vh;
+}
+.country_flag{
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 20px;
+    margin-top: 26px;
+}
+.signin_btn{
+    display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.returns_and_orders_btn{
+    display: block;
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+.shopping_cart{
+    margin-left: 100px;
+    margin-top: 10px;
+    height:0px;
+    width: 0px;
 }
