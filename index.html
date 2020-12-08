@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
     <link rel="stylesheet" href="navbar.css">
+    <link rel="icon"  href="images/amazon_icon.ico" />
+    <script src="index.js"></script>
 </head>
 <body>
     <nav id="navbar">
@@ -15,9 +17,9 @@
                 <a class="select_address">Hello<br>Select your address</a>
             </li>
 
-            <li class="navbarcenter">
+            <li id="navbarcenter">
                 <button class="catgeory_selector">All</button>
-                <input type="search" class="searchbar">
+                <input onclick="highlightsearchbar();" type="search" class="searchbar">
                 <img src="images/searchbarlogo.png" class="search_btn">
             </li>
             <li>
