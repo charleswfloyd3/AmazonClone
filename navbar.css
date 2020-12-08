@@ -1,5 +1,5 @@
 body{
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 #navbar{
     background-color:black;
@@ -62,8 +62,8 @@ li{
 .search_btn{
     margin-left: -4px;
     width: 44px;
-    height: 38.9px;
-    margin-bottom: -15.25px;
+    height: 39.1px;
+    margin-bottom: -15.27px;
     outline: none;
 
 }
@@ -78,16 +78,22 @@ li{
 .signin_btn{
     display: block;
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 19px;
 }
 .returns_and_orders_btn{
     display: block;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 19px;
 }
 .shopping_cart{
     margin-left: 100px;
     margin-top: 10px;
     height:0px;
     width: 0px;
+}
+
+.slideshow{
+    background-size: 6vw;
+    background-repeat: no-repeat;
+    margin-left: -8.5px;
 }

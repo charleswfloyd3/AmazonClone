@@ -1,0 +1,16 @@
+.backgroundimage{
+    width:1334.5px;
+    margin-top: 49px;
+}
+#deals_grid{
+    display: grid;
+    grid-template-columns: .25fr .25fr .25fr .25fr;
+    grid-template-rows: 1fr 1fr;
+    border: 10px solid black;
+    margin-top: -270px;
+    grid-gap:10px;
+
+}
+.deal1,.deal2,.deal3,.deal4,.deal5,.deal6,.deal7,.deal7,.deal8{
+    border: 2px solid black;
+}
