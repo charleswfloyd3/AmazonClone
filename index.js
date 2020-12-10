@@ -10,10 +10,10 @@ let backgroundimages = ["backgroundimages/amazon_music.jpg", "backgroundimages/a
 let slideshowIndex = 0;
 function backgroundimageslideshow(){
     if(slideshowIndex == backgroundimages.length ){
-            slideshowIndex = 0
+            slideshowIndex = 0;
     };
     document.add.src = backgroundimages[slideshowIndex];
     slideshowIndex++;
-    setTimeout("backgroundimageslideshow()", 9000);
+    setTimeout("backgroundimageslideshow()", 6000);
 };
 window.onload = backgroundimageslideshow;

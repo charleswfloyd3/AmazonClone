@@ -4,13 +4,37 @@
 }
 #deals_grid{
     display: grid;
-    grid-template-columns: .25fr .25fr .25fr .25fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    border: 10px solid black;
-    margin-top: -270px;
+    /* border: 10px solid black; */
+    margin-top: -260px;
     grid-gap:10px;
 
 }
-.deal1,.deal2,.deal3,.deal4,.deal5,.deal6,.deal7,.deal7,.deal8{
+.deal1,.deal2,.deal8{
     border: 2px solid black;
+    height: 450px;
+    width: 310px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .2fr .4fr .4fr .2fr;
+}
+.deal3, .deal5{
+    border: 2px solid black;
+    height: 450px;
+    width: 310px;
+    background-color: white;
+}
+.deal4{
+    border: 2px solid black;
+    height: 450px;
+    width: 310px;
+    background-color: white;
+}
+.deal6,.deal7{
+    border: 2px solid black;
+    height: 450px;
+    width: 310px;
+    background-color: white;
 }
